@@ -19,13 +19,10 @@ public class MPR {
     public static float beta_v = 0.01f;
     // learning rate $\eta$
     public static float eta = 0.01f;
-    // the weight parameter between BPR and CLAPF
-    public static float gamma;
-    // the tradeoff parameter in CLAPF
-    public static float lambda = 0.8f;
+    // the tradeoff parameter in MPR
+    public static float lambda = 0.7f;
     // number of iterations
     public static int num_iterations = 100000;
-
 
 
     // Input data files
